@@ -10,13 +10,13 @@ ${BROWSER_URL}  http://www.robotframeworktutorial.com/front-office
 
 *** Test Cases ***
 TC01_Should be able to access "Team" page
-    Documentation   This is test case 1
+    [Documentation]   This is test case 1
     [Tags]  testcase1
     Log     Executing testcase1
     sleep   3s
 
 TC02_"Team" page should match requirement
-    Documentation   This is test case 2
+    [Documentation]   This is test case 2
     [Tags]  testcase2
     Log     Executing testcase2
     sleep   3s
