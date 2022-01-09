@@ -11,5 +11,5 @@ Click on the "Team" option
     Click Element       ${Menu_Item_Team}
 
 Verify that the "Team" section is shown correctly
-    Wait Until Page Contains Element   ${Team_Section_Header}
+    Wait Until Page Contains Element   ${Team_Section_Header}   timeout=90
     Element Should Contain      ${Team_Section_Header}      ${Team_Section_Header_Text from UI}     ignore_case=true
