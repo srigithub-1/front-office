@@ -4,7 +4,7 @@ Library    SeleniumLibrary
 *** Variables ***
 ${Menu_Item_Team}       xpath=//a[text()='Team']
 ${Team_Section_Header}  xpath=//h2[contains(text(),'Amazing Team')]
-${Team_Section_Header_Text from UI}     "Amazing Team"
+${Team_Section_Header_Text from UI}     Our Amazing Team
 
 *** Keywords ***
 Click on the "Team" option
