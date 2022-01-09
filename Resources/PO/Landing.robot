@@ -2,8 +2,8 @@
 Library     SeleniumLibrary
 
 *** Variables ***
-${Menu_Item_Team}       xpath=//a[text()='Team']
+${Menu_Item_Team}       xpath=//a[contains(text(),'RobotFramework')]
 
 *** Keywords ***
-The "Team" option should be shown
+The "Landing" page should load
     Wait Until Page Contains Element    ${Menu_Item_Team}       timeout=90
