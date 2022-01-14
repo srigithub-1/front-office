@@ -19,5 +19,5 @@ When I Click on the "Team" Menu Option
     Click on the "Team" option
 
 I Should Be Able to See the "Team" Section
-    ${STATUS}  =  Team.Verify that the "Team" section is shown correctly
+    ${STATUS}=  Team.Verify that the "Team" section is shown correctly
     Log  "Section Header value:" ${STATUS}
