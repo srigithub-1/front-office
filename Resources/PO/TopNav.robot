@@ -1,5 +1,5 @@
 *** Settings ***
-Library    SeleniumLibrary
+Library    Selenium2Library
 
 *** Variables ***
 ${Menu_Item_Team}       xpath=//a[text()='Team']

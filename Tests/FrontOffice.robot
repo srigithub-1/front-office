@@ -4,6 +4,7 @@ Resource        ../Resources/CommonWeb.robot
 Test Setup      Begin Web Test
 Test Teardown   End Web Test
 
+
 *** Variables ***
 ${BROWSER}      gc
 ${BROWSER_URL}  http://www.robotframeworktutorial.com/front-office
